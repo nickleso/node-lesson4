@@ -12,7 +12,7 @@ async function sendEmail({ name, email, text }) {
     },
   });
 
-  console.log(transporter);
+  // console.log(transporter);
 
   const emailBody = `<h2>Ви отримали листа</h2>
     <p>Вам написав ${name}</p>
